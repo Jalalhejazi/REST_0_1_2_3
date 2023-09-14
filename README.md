@@ -8,17 +8,16 @@ Richardson Maturity Model, a concept by Leonard Richardson that describes the ma
 
 Here's a brief summary of each level:
 
-- Level 0: The "Swamp of POX" - At this level, HTTP is used merely as a transport system for remote interactions. SOAP and XML-RPC often fall into this category.
 
-- Level 1: Resources - The next level introduces the concept of resources, where individual endpoints represent different entities in the system.
 
-- Level 2: HTTP Verbs - This level makes use of HTTP verbs like GET, POST, PUT, and DELETE to perform CRUD operations on resources.
 
-- Level 3: Hypermedia Controls - The most mature level of REST involves the use of hypermedia as the engine of application state (HATEOAS), allowing the client to navigate through the application dynamically.
+
+| Level | Name                | Description                                                                                     |
+|-------|---------------------|-------------------------------------------------------------------------------------------------|
+| 0     | SOAP       | HTTP is used merely as a transport system for remote interactions.                              |
+| 1     | Resources           | Introduces the concept of resources, where individual endpoints represent different entities.    |
+| 2     | HTTP Verbs          | Makes use of HTTP verbs like GET, POST, PUT, and DELETE to perform CRUD operations on resources.|
+| 3     | Hypermedia Controls | Uses hypermedia as the engine of application state (HATEOAS), allowing dynamic client navigation.|
+
 
 The Richardson Maturity Model is often used to gauge how "RESTful" a web service is, and it provides a roadmap for improving the design of such services.
-
-
-
-
-
