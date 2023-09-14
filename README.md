@@ -1,6 +1,8 @@
 ## REST API from level 0 to 3
 
-http://martinfowler.com/articles/richardsonMaturityModel.html
+- https://en.wikipedia.org/wiki/Richardson_Maturity_Model
+- http://martinfowler.com/articles/richardsonMaturityModel.html
+
 
 Richardson Maturity Model, a concept by Leonard Richardson that describes the maturity level of a RESTful web service. The model outlines four levels of REST services, starting from Level 0, which is the use of HTTP as a transport system for remote interactions, to Level 3, which involves the use of hypermedia controls.
 
