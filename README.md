@@ -30,3 +30,27 @@ Here's a brief summary of each level:
 
 
 The Richardson Maturity Model is often used to gauge how "RESTful" a web service is, and it provides a roadmap for improving the design of such services.
+
+
+
+## SWOT Comparing (RESTful | REST) web service
+
+| Criteria     | RESTful APIs                                       | REST APIs                                          |
+|--------------|----------------------------------------------------|-----------------------------------------------------|
+| **Strengths**|                                                    |                                                     |
+|              | - Strict adherence to REST principles              | - Flexibility in implementation                     |
+|              | - Easier to understand and maintain                | - Can accommodate non-RESTful operations           |
+|              | - Better community support                         | - May offer quicker development                     |
+|              | - More predictable behavior                        | - Broader range of use-cases                        |
+| **Weaknesses**|                                                   |                                                     |
+|              | - Requires strict adherence, less flexibility      | - Can become complex and harder to maintain         |
+|              | - May take longer to develop                       | - May not fully utilize REST advantages             |
+|              | - Less suitable for real-time applications         | - Inconsistent implementations can cause confusion  |
+| **Opportunities**|                                                |                                                     |
+|              | - Growing demand for standardized APIs             | - Can evolve into RESTful APIs as needed            |
+|              | - Easier to scale and extend                       | - More adaptable to various types of data exchange  |
+|              | - Better suited for public APIs                    | - Can be optimized for specific use-cases           |
+| **Threats**  |                                                    |                                                     |
+|              | - May become obsolete if not updated               | - Risk of becoming a "REST-ish" API                 |
+|              | - Complexity can increase with extensions          | - May suffer from poor documentation                |
+|              | - Stricter rules may limit some functionalities    | - Inconsistent quality across different APIs         |
