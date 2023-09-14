@@ -23,7 +23,7 @@ Here's a brief summary of each level:
 
 | Level | Name                | Description                                                                                     |
 |-------|---------------------|-------------------------------------------------------------------------------------------------|
-| 0     | SOAP       | HTTP is used merely as a transport system for remote interactions.                              |
+| 0     | Plain old xml       | HTTP is used merely as a transport system for remote interactions.                              |
 | 1     | Resources           | Introduces the concept of resources, where individual endpoints represent different entities.    |
 | 2     | HTTP Verbs          | Makes use of HTTP verbs like GET, POST, PUT, and DELETE to perform CRUD operations on resources.|
 | 3     | Hypermedia Controls | Uses hypermedia as the engine of application state (HATEOAS), allowing dynamic client navigation.|
