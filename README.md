@@ -1,5 +1,14 @@
-## REST API from level 0 to 3
+# REST API 
 
+
+REST stands for Representational State Transfer. It is an architectural style for designing networked applications. REST uses a stateless, client-server communication model, which treats web services as resources that can be identified by their URLs. It is commonly used for web services and relies on standard HTTP methods such as GET, POST, PUT, and DELETE for interactions.
+
+In RESTful systems, each URL is a representation of some resource. Clients interact with these resources by exchanging representations of the resource's state, typically in the form of JSON or XML documents.
+
+REST was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation. It has since become one of the most popular approaches for building scalable and robust web services.
+
+
+## Richardson Maturity Model (from level 0 to 3) 
 - https://en.wikipedia.org/wiki/Richardson_Maturity_Model
 - http://martinfowler.com/articles/richardsonMaturityModel.html
 
