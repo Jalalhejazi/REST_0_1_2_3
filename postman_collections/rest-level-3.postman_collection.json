@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST_4_status",
+		"_postman_id": "607e7c28-97ef-a8ee-6b6f-fb612bb0e976",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST /movies/",
+			"request": {
+				"url": "localhost:1234/movies/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"The new new one\"  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST /movies/ [400 Bad request]",
+			"request": {
+				"url": "localhost:1234/movies/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"WrongTitle\":\"The new new one\"  }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

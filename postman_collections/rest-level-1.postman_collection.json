@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST_2_nouns",
+		"_postman_id": "d5d6f7f8-aa0a-67cd-9d68-336018748350",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/movies {action: viewList}",
+			"request": {
+				"url": "localhost:1234/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"viewList\"}"
+				},
+				"description": "POST using nouns"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies {action: addNew}",
+			"request": {
+				"url": "localhost:1234/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"addNew\", \"title\":\"Spiderman 4 coming soon\"}"
+				},
+				"description": "POST using nouns"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies {action: rate}",
+			"request": {
+				"url": "localhost:1234/movies/YwlQORIKn1gRxNuV",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"rate\",  \"rating\": \"coming soon { in future 2017 }  \"  }"
+				},
+				"description": "POST using nouns"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies {action: view}",
+			"request": {
+				"url": "localhost:1234/movies/YwlQORIKn1gRxNuV",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"view\" }"
+				},
+				"description": "POST using nouns"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies {action: remove}",
+			"request": {
+				"url": "localhost:1234/movies/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"remove\" }"
+				},
+				"description": "POST using nouns"
+			},
+			"response": []
+		}
+	]
+}

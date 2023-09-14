@@ -1,0 +1,91 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST_01_RPC",
+		"_postman_id": "37baf33c-8b22-7780-1966-6a0c3b9d649c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/rpc {action: addMovie}",
+			"request": {
+				"url": "localhost:1234/rpc",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"addMovie\" , \"title\": \"Superman vs. Spiderman\"}"
+				},
+				"description": "POST using RPC to addMovie"
+			},
+			"response": []
+		},
+		{
+			"name": "/rpc {action: getMovies}",
+			"request": {
+				"url": "localhost:1234/rpc",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"getMovies\" }"
+				},
+				"description": "hybermedia RPC  "
+			},
+			"response": []
+		},
+		{
+			"name": "/rpc {action: rateMovie}",
+			"request": {
+				"url": "localhost:1234/rpc",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"rateMovie\" , \"title\": \"Superman vs. Spiderman\" , \"rating\" : \"4\" }"
+				},
+				"description": "UPDATE \n\nPOST using RPC to rateMovie"
+			},
+			"response": []
+		},
+		{
+			"name": "/rpc {action: removeMovies}",
+			"request": {
+				"url": "localhost:1234/rpc",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"action\": \"removeMovies\" }"
+				},
+				"description": "DELETE\n\nPOST using RPC to removeMovie"
+			},
+			"response": []
+		}
+	]
+}

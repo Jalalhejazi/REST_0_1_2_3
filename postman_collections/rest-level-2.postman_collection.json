@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST_3_verbs",
+		"_postman_id": "a0dfcea9-139f-fefa-5bee-30581d3b9d03",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/movies {HTTP GET}",
+			"request": {
+				"url": "localhost:1234/movies",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "POST using verbs"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies/:id {HTTP GET}",
+			"request": {
+				"url": "localhost:1234/movies/n1VirNJpVIaJHAdO",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "using verbs"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies {HTTP POST}",
+			"request": {
+				"url": "localhost:1234/movies/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\": \"Lego the movie\"}"
+				},
+				"description": "using verbs"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies/:id {HTTP PUT}",
+			"request": {
+				"url": "localhost:1234/movies/ARbc2uQse1trTfzW",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\": \"lego from DK\"}"
+				},
+				"description": "using verbs"
+			},
+			"response": []
+		},
+		{
+			"name": "/movies/:id {HTTP DELETE}",
+			"request": {
+				"url": "localhost:1234/movies/n1VirNJpVIaJHAdO",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": "using verbs"
+			},
+			"response": []
+		}
+	]
+}
