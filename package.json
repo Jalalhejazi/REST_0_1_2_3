@@ -1,5 +1,5 @@
 {
-  "name": "su0096",
+  "name": "REST",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
     "start0": "nodemon rest-level0.js",
     "start1": "nodemon rest-level1.js",
     "start2": "nodemon rest-level2.js",
-    "start3": "nodemon rest-level3.js",
-    "deploy": "git add . && git commit -m 'su0096' && git push origin master"
+    "start3": "nodemon rest-level3.js"
   },
   "keywords": [],
   "author": "",
@@ -25,9 +24,5 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://superusers-kursus@dev.azure.com/superusers-kursus/SU0096_REST_WebServices_Private/_git/rest-levels"
-  }
+  "devDependencies": {}
 }
