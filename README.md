@@ -95,6 +95,6 @@ dab init --database-type mssql --connection-string "Server=localhost;Database=Li
 dab add Book --source dbo.Books --permissions "anonymous:*"
 dab start
 
+# Then everything is ready auto generated - No coding is required 
+
 ```
-
-
