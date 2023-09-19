@@ -57,3 +57,15 @@ The Richardson Maturity Model is often used to gauge how "RESTful" a web service
 |              | - May become obsolete if not updated               | - Risk of becoming a "REST-ish" API                 |
 |              | - Complexity can increase with extensions          | - May suffer from poor documentation                |
 |              | - Stricter rules may limit some functionalities    | - Inconsistent quality across different APIs         |
+
+
+
+<br>
+<br>
+
+
+## 6 API Architectures 
+
+ 
+
+![](https://camo.githubusercontent.com/e697b7f5df0ca953f5a13e7750db350783fd13868871bb2d28a3e0cc57e166f7/68747470733a2f2f6d656469612e6c6963646e2e636f6d2f646d732f696d6167652f4434453232415145515f5953466537304946772f6665656473686172652d736872696e6b5f323034385f313533362f302f313639333335353031383532323f653d3136393832373834303026763d6265746126743d594c6a6a44656753582d317a7150484d46336c3038686e79536550696e5379584551373549664871793355)
