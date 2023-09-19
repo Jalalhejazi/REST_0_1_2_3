@@ -74,12 +74,14 @@ The Richardson Maturity Model is often used to gauge how "RESTful" a web service
 
 
 
-## Data Api Builder 
+## Data Api Builder (Microsoft Open Source innovation)
+
+The source code is on GitHub: https://github.com/Azure/data-api-builder
 
 ![](https://learn.microsoft.com/en-us/azure/data-api-builder/media/data-api-builder-architecture-overview.png)
 
 
-- [Quick API Endpoints Using Data API Builder](https://www.youtube.com/watch?v=XQRO_uoGhp4&t=218)
+- [Youtube | Quick API Endpoints Using Data API Builder](https://www.youtube.com/watch?v=XQRO_uoGhp4&t=218)
 
 - https://learn.microsoft.com/en-us/azure/data-api-builder/overview-to-data-api-builder?tabs=azure-sql
 
@@ -88,7 +90,7 @@ The Richardson Maturity Model is often used to gauge how "RESTful" a web service
 # install 
 dotnet tool install -g microsoft.dataapibuilder
 
-# Bootstrap 
+# Run Data API builder on-premises  
 dab init --database-type mssql --connection-string "Server=localhost;Database=Library;"
 dab add Book --source dbo.Books --permissions "anonymous:*"
 dab start
