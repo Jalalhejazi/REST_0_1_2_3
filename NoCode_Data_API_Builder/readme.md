@@ -27,11 +27,13 @@ sqlcmd -S localhost,1433 -U sa -P Password123 -Q "SELECT count(*) as [TestCount]
 ## Now REST API automatic generated using Microsoft Data API Builder 
 
 ```bash
-# Change your connectionstring as needed --> dab init auto generate dab_config.json 
-dab init --database-type mssql --connection-string "Data Source=localhost;Initial Catalog=StudentDB;User ID=sa;Password=Password123;Trust Server Certificate=True"
+# ref: https://learn.microsoft.com/en-us/azure/data-api-builder/data-api-builder-cli
 
-# add Database model (Tables, Views), and best practice is to use Stored Procedures for Security and Performance 
-dab add studentDetails --source dbo.StudentDetails --permissions "anonymous:*"
+# Change your connectionstring as needed --> dab init auto generate dab_config.json 
+dab init --database-type mssql --host-mode development --connection-string "Data Source=localhost;Initial Catalog=StudentDB;User ID=sa;Password=Password123;Trust Server Certificate=True"
+
+# --source.type of the database object. Must be one of: [table, view, stored-procedure]
+dab add studentDetails --source dbo.StudentDetails --source.type table --permissions "anonymous:*"
 
 # Done: Start Browsing REST API 
 dab start
