@@ -1,6 +1,6 @@
 # Data Api Builder (Microsoft Open Source innovation)
 
-- Low Code using a Generator | Less code | More time on Data    
+- Low Code using a Generator | Less code | More time on Data and Business value   
 
 - The source code is on GitHub: https://github.com/Azure/data-api-builder
 
@@ -11,6 +11,17 @@
 
 ![](https://learn.microsoft.com/en-us/azure/data-api-builder/media/data-api-builder-architecture-overview.png)
 
+
+## Install the Data API Builder CLI
+
+```powershell
+dotnet tool install -g Microsoft.DataApiBuilder
+
+# verify the installation
+dab --help
+```
+
+![](../images/dab.jpg)
 
 
 
